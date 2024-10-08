@@ -353,17 +353,17 @@ img{
 
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
-     img{
+img{
+    width: 300px;
+    max-width: 300px;
+} 
+@media screen and (min-width:960px) {
+    img{
         width: 300px;
         max-width: 300px;
     } 
-    @media screen and (min-width:960px) {
-        img{
-            width: 300px;
-            max-width: 300px;
-        } 
-        
-    }
+    
+}
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
 
 
