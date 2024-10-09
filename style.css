@@ -1,12 +1,12 @@
 /* Emely */
 
-/* --------------- ADD CSS RESET TO THE FILE HERE --------------- */
+/* --------------- ADD CSS RESET TO THE FILE HERE ---------------*/
 
 @import url(rodriguezperezreset.css);
 
 /* ----- AUTOPREFIXER FOR VS CODE WAS USED FOR VENDOR PREFIXES ----- */
 /* ---------- VARIABLES ---------- */
-:root{
+/*:root{
     --red: #760029;
     --pink: #9a0093;
     --orange: #ff8f6c;
@@ -22,7 +22,7 @@
 }
 
 /* ---------- GLOBAL STYLES ---------- */
-*{
+/*{
     box-sizing: border-box;
     line-height: 1.35;
 }
@@ -39,7 +39,7 @@
 
 
 /* ----- HEADINGS ----- */
-h1, h2, h3, h4{
+/*h1, h2, h3, h4{
     font-weight: bold;
 }
 
@@ -55,7 +55,7 @@ h2{
 }
 
 /* ----- IMAGES ----- */
-img{
+/*img{
     display: block;
     max-width: 100%;
     margin: 0.5em 0;
@@ -63,7 +63,7 @@ img{
 
 /* ----- ANIMATED ICON ----- */
 /* Icon and animation code from https://typogram.github.io/Anicons/ */
-.icon{
+/*.icon{
     font-family: "Anicons Regular";
     font-size: 2em;
     display: inline-block;
@@ -91,7 +91,7 @@ footer .icon{
 
 /* ----- HANDLE PREFERS REDUCED MOTION FOR THE ICON ANIMATIONS ----- */
 /* --------------- BEGIN USER PREFERS REDUCED MOTION QUERY --------------- */
-    @-webkit-keyframes icon-animation {
+/*  @-webkit-keyframes icon-animation {
         0% { font-variation-settings: "TIME" 1; }
     }
     @keyframes icon-animation {
@@ -102,7 +102,7 @@ footer .icon{
 
 
 /* ----- TEXT ----- */
-p, small{
+/*p, small{
     font-size: 1em;
     margin: 0.25em;
     padding: 0.25em;
@@ -110,7 +110,7 @@ p, small{
 }
 
 /* ----- MAIN/HEADER/FOOTER ----- */
-main, header, footer{
+/*main, header, footer{
     font-family: sans-serif;
     color: var(--dark-gray);
     width: 100%;
@@ -125,13 +125,13 @@ main{
 }
 
 /* ----- CONTAINERS ----- */
-section{
+/*section{
     margin: 1em 0;
     padding: 1em;
 }
 
 /* ---------- EXTRA SMALL SCREEN STYLES ---------- */
-header, footer{
+/*header, footer{
     background-color: var(--pink);
     color: var(--white);
 }
